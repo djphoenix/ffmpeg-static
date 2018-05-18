@@ -43,11 +43,11 @@ switch (tuple) {
     unzip('ffmpeg-latest-macos64-static.zip', 'bin/darwin/x64', '**/ffmpeg')
     break
   case 'linux-x64':
-    download('https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-64bit-static.tar.xz')
+    download('https://web.archive.org/web/20170813034211if_/https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-64bit-static.tar.xz')
     untar('ffmpeg-release-64bit-static.tar.xz', 'bin/linux/x64', '*/ffmpeg')
     break
   case 'linux-x32':
-    download('https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-32bit-static.tar.xz')
+    download('https://web.archive.org/web/20170713212749if_/https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-32bit-static.tar.xz')
     untar('ffmpeg-release-32bit-static.tar.xz', 'bin/linux/ia32', '*/ffmpeg')
     break
   default:
